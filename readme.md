@@ -8,6 +8,24 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
-## First setup
+## SETUP
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+# Install Docker desktop in your machine
+
+- [Windows](https://docs.docker.com/desktop/install/windows-install/)
+- [Linux](https://docs.docker.com/desktop/install/linux-install/)
+- [Mac](https://docs.docker.com/desktop/install/mac-install/)
+
+_You can verify docker is ready by running the following commands in your terminal: `docker -v`and `docker-compose -v`._
+
+# Run docker desktop
+
+- just launch the docker desktop app you installed earlier.
+
+# clone the [repro](https://github.com/ObelusFamily/Anythink-Market-u2exm)
+
+-run `git clone https://github.com/ObelusFamily/Anythink-Market-u2exm` in your terminal
+
+# Load the Containers
+
+-run `docker-compose up` from the project root directory to load Anythink's backend and frontend.
